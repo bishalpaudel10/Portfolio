@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <title>
+            Personal Portfolio
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/7a8cbf46e8.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/Bishal.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <!----------<i class="fas fa-times" onclick="closemenu()"></i>------->
+                </ul>
+                <!--------------<i class="fas fa-bars" onclick="openmenu()"></i>-------->
+            </nav>
+            <div class="header-text">
+                <p>QA Engineer</p>
+                <h1>Hi, I'm <span>Bishal Paudel</span><br> from Bhaktapur</h1>
+            </div>
+        </div>
+        </div>
+
+<!-----------About------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/bishal1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">
+                    About Me
+                </h1>
+                <p> A self-motivated and dedicated Software QA engineer with a bachelor's degree in BE Computer Engineering, skilled in web/mobile
+                    application testing, agile methodologies, API testing, automation testing with more than a year of work experience in the
+                    information technology industry</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Manual Testing</span><br>Testing the software</li>
+                            <li><span>Automation Testing</span><br>Testing the software with script</li>
+                            <li><span>API Testing</span><br>Testing the API</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-Current</span><br>Seninor QA Engineer</li>
+                            <li><span>2019-2021</span><br>Mid-Level QA Engineer</li>
+                            <li><span>2015-2017</span><br>Associate QA Engineer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017-2022</span><br>Bachelors in Engineering</li>
+                            <li><span>2015-2017</span><br>+2 NEB</li>
+                            <li><span>2003-2015</span><br>School Leaving Certificate</li>
+                        </ul>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!---------------------Services------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-microscope"></i>
+                <h2>Web Design</h2>
+                <p>orem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="#">Learn More</a>
+            
+            </div>
+            <div>
+                <i class="fa-solid fa-paperclip"></i>
+                <h2>UI/UX Design</h2>
+                <p>orem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="#">Learn More</a>
+            
+            </div>
+            <div>
+                <i class="fa-solid fa-paperclip"></i>
+                <h2>App Design</h2>
+                <p>orem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <a href="#">Learn More</a>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------Portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work1.jpeg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the weekend for getting connected.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work2.webp">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the weekend for getting connected.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work3.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connect you to the weekend for getting connected.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------Contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>bishalpaudel01.28@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9860478154</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/bishal.paudel1999/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/ig_leobsal/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/bishal-paudel-273858260/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Images/Bishal_Resume_QA.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+                <div id="msg" style="display: none;">Message sent successfully</div>
+            </div>
+        </div>
+     </div>
+     <div class="copyright">
+        <p>Copyright © Bishal Paudel.</p>
+     </div>
+</div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwbKUX06qWmtE6Igs4eMg_KDONsEW7kZI6oBaqXigO5iwdGZ6MG27pOXPsHNdmubqGs/exec';
+const form = document.forms['submit-to-google-sheet'];
+const msg = document.getElementById("msg");
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+    
+    msg.innerHTML = "Sending message...";
+    msg.style.display = "block";
+  
+    fetch(scriptURL, { 
+      method: 'POST', 
+      body: new FormData(form)
+    })
+    .then(response => {
+      msg.innerHTML = "Message sent successfully!";
+      setTimeout(() => {
+        msg.style.display = "none"; 
+      }, 5000);
+      form.reset();
+    })
+    .catch(error => {
+      console.error('Error!', error.message);
+      msg.innerHTML = "Failed to send message.";
+    });
+  });
+  
+</script>
+
+</body>
+</html>
